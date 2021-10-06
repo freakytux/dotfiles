@@ -1,0 +1,25 @@
+# default options
+display_on=0
+span_image=false
+lock_timeout=300
+solid_color=2e3440
+dim_level=80
+blur_level=1
+
+# theme options
+loginbox=2e3440
+loginshadow=4c566a
+locktext="Mofo, put your password!"
+font="scientifica"
+ringcolor=eceff4
+insidecolor=2e3440
+separatorcolor=4c566a
+ringvercolor=d8dee9
+insidevercolor=00000000
+ringwrongcolor=ffffffff
+insidewrongcolor=bf616a
+keyhlcolor=5e81ac
+bshlcolor=bf616a
+verifcolor=ffffffff
+timecolor=d8dee9
+datecolor=d8dee9

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+killall -q polybar 
+
+tray=$(xrandr | grep 'HDMI1 connected' | awk '{print $1}')
+output=$(xrandr | grep 'HDMI1 connected' | awk '{print $1,$2}')
+if [[ $output == 'HDMI1 connected' ]]; then
+	polybar -r -q top 2>/dev/null & disown 
+	polybar -r -q bottom 2>/dev/null & disown 
+	tray_output=HDMI1
+else
+	polybar -r -q top & disown 2>/dev/null
+	tray_output=eDP1
+fi

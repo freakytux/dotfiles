@@ -1,0 +1,6 @@
+
+configuration {
+	theme: "~/.config/rofi/styles/nord-snowstorm.rasi";
+	modi:  "drun";
+}
+

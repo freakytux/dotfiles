@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/tg=userapp-Telegram Desktop-1NEU20.desktop
+application/pdf=org.pwmt.zathura.desktop;
+text/html=firefox.desktop
+image/jpeg=sxiv.desktop;
+image/png=sxiv.desktop;
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-1NEU20.desktop;
+image/jpeg=sxiv.desktop;
+image/png=sxiv.desktop;
+application/pdf=org.pwmt.zathura.desktop;
+text/plain=leafpad.desktop;vim.desktop;

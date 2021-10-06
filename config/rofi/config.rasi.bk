@@ -1,0 +1,6 @@
+
+configuration {
+	theme: "/usr/share/rofi/themes/android_notification.rasi";
+	modi:  "winodw,run,drun";
+}
+
