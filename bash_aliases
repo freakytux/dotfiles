@@ -59,10 +59,4 @@ alias t="tmux"
 alias ta="tmux attach"
 alias r="ranger"
 alias o="xdg-open"
-alias bt1="echo -e 'power on\nscan on\nconnect 30:21:9D:80:C5:44' | bluetoothctl"
-alias bt2="echo -e 'power on\nscan on\nconnect DC:DC:EC:8C:1E:48' | bluetoothctl"
 alias vim='nvim'
-alias gi="cd /run/media/narayanux/"
-alias d1="cd /run/media/narayanux/9b01c2f2-a403-4e40-a6e3-cc79dedf012c/linuxguy/"
-
-
